@@ -11,5 +11,28 @@
             aliquet mauris.
         </p>
     </div>
+    <div class="works">
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/works/1.jpg') }}" alt="Available Work 1">
+                <h3 class="work-title">Work Title 1</h3>
+                <h3 class="work-price">$100</h3>
+            </div> 
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/works/2.jpg') }}" alt="Available Work 2">
+                <h3 class="work-title">Work Title 2</h3>
+                <h3 class="work-price">$200</h3>
+            </div> 
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/works/3.jpg') }}" alt="Available Work 3">
+                <h3 class="work-title">Work Title 3</h3>
+                <h3 class="work-price">$300</h3>
+            </div> 
+        </div>
+    </div>
 </section>
 {% endblock %}

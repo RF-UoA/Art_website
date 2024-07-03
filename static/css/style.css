@@ -1,6 +1,26 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0 0 0 0;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    width: 40%;
+    align-self: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .strip {
@@ -23,7 +43,6 @@ body {
     left: 0;
     width: 100%;
     height: 9.8em;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     background-color: #474342;
     z-index: 1;
     margin-top: 1.95em;
@@ -65,8 +84,8 @@ img#logo {
 /* Start footer elements */
 
 footer {
-    background-color: #474342; /* Dark background for the footer */
-    color: #fff; /* Light text color */
+    background-color: #474342; 
+    color: #fff; 
     text-align: center;
     padding: 20px;
 }
@@ -79,11 +98,12 @@ footer {
 
 .social-links {
     font-size: 2em;
+    margin-bottom: 30px;
 }
 
 .profile-picture img {
-    width: 100px; /* Adjust based on your preference */
-    height: 100px; /* Adjust to maintain aspect ratio */
+    width: 100px; 
+    height: 100px; 
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -108,43 +128,61 @@ div.contact-subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .contact-subscribe form {
     display: flex;
-    max-width: 400px;
+    max-width: 500px;
     margin-bottom: 20px;
-  }
+}
   
-  .contact-subscribe input[type="email"],
-  .contact-subscribe button.subscribe {
-    height: 40px; /* You can adjust this height as needed */
+.contact-subscribe input[type="email"],
+.contact-subscribe button.subscribe {
+    height: 40px;
     border: none;
     outline: none;
-  }
+    border: 1px solid transparent;
+}
   
-  .contact-subscribe input[type="email"] {
-    border-top-left-radius: 5px; /* Adjust radius as needed */
-    border-bottom-left-radius: 5px; /* Adjust radius as needed */
+.contact-subscribe input[type="email"] {
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
     padding: 0 10px;
     flex: 1;
-  }
+    height: 38px;
+    width: 200px;
+}
+
+.contact-subscribe input[type="email"]:hover {
+    border: 1px solid #937F7A;
+}
+
+.contact-subscribe button.subscribe:hover {
+    background-color: #7b6a66;
+    cursor: pointer;
+}
   
-  .contact-subscribe button.subscribe {
-    border-top-right-radius: 5px; /* Adjust radius as needed */
-    border-bottom-right-radius: 5px; /* Adjust radius as needed */
-    background-color: #937F7A; /* Adjust button color as needed */
-    color: white; /* Adjust text color as needed */
-    padding: 0 20px;
-  }
+.contact-subscribe button.subscribe {
+border-top-right-radius: 5px; 
+border-bottom-right-radius: 5px; 
+background-color: #937F7A; 
+color: white; 
+padding: 0 20px;
+}
   
-  .contact-subscribe input[type="email"]:focus,
-  .contact-subscribe button.subscribe:focus {
-    outline: none;
-  }
+.contact-subscribe input[type="email"]:focus,
+.contact-subscribe button.subscribe:focus {
+outline: none;
+}
 
 .profile-area {
     margin-bottom: 35px;
+}
+
+div.footer-bottom-strip {
+    background-color: white;
+    padding: 20px 0;
 }
 
 /* End footer elements */
@@ -166,12 +204,12 @@ div.contact-subscribe {
         margin-top: 0.95em;
     }
     .footer-content {
-        flex-direction: column; /* Stack the flex items vertically on small screens */
-        align-items: center; /* Center align the items */
+        flex-direction: column;
+        align-items: center;
     }
 
     .profile-picture img {
-        width: 80px; /* Optionally adjust the size for smaller screens */
+        width: 80px;
         height: 80px;
     }
 

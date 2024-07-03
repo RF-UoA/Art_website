@@ -297,8 +297,8 @@ p.available-works-description {
     }
 
     nav.strip.bottom-strip ul {
-        display: none; 
         flex-direction: column; 
+        display: none;
     }
 
     nav.strip.bottom-strip ul.active {
@@ -318,6 +318,12 @@ p.available-works-description {
     nav.bottom-strip.active {
         display: block;
         margin-bottom: 20px;
-    }
+    }   
+}
+
+@media (max-width: 1024px) { /* Adjusts for devices with width up to 1024px */
     
+    .content {
+        width: 80%;
+    }
 }

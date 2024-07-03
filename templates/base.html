@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Amanda Ford's personal design portfolio showcasing her work and projects.">
     <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
 </head>
@@ -32,20 +33,23 @@
 
     <footer>
         <div class="footer-content">
-            <div class="social-links">
-                <a href="https://facebook.com/YourFacebookPage" target="_blank">Facebook</a>
-                <a href="https://instagram.com/YourInstagramPage" target="_blank">Instagram</a>
-            </div>
-            <div class="profile-picture">
-                <img src="{{ url_for('static', filename='assets/profile.jpg') }}" alt="Profile Picture">
+            <div class="profile-area">
+                <h2>Amanda Ford</h2>
+                <div class="profile-picture">
+                    <img src="{{ url_for('static', filename='assets/profile-placeholder.png') }}" alt="Profile Picture">
+                </div>
+                <button class="contact" onclick="location.href='{{ url_for('contact') }}'">Contact</button>
             </div>
             <div class="contact-subscribe">
-                <button onclick="location.href='{{ url_for('contact') }}'">Contact</button>
                 <form action="/subscribe" method="post">
                     <input type="email" name="email" placeholder="Subscribe to newsletter">
-                    <button type="submit">Subscribe</button>
+                    <button class="subscribe" type="submit">Subscribe</button>
                 </form>
             </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/amandaforddesigns/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fordamanda" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <p>&copy; 2024 Amanda Ford Designs</p>
     </footer>

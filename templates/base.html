@@ -7,13 +7,13 @@
     <meta name="description" content="Amanda Ford's personal design portfolio showcasing her work and projects.">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="icon" type="image/png" href="favicon.png">
     <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
 </head>
 <body>
     <header>
         <div class="strip top-strip"></div> <!-- Top white strip -->
         <div class="strip logo-strip">
+            <div class="strip behind-logo"></div>
             <img id="logo" src="{{ url_for('static', filename='assets/logo.png') }}" alt="Amanda Ford Designs">
         </div> <!-- Middle brown strip -->
         <nav class="strip bottom-strip">
@@ -31,6 +31,22 @@
     {% endblock %}
 
     <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://facebook.com/YourFacebookPage" target="_blank">Facebook</a>
+                <a href="https://instagram.com/YourInstagramPage" target="_blank">Instagram</a>
+            </div>
+            <div class="profile-picture">
+                <img src="{{ url_for('static', filename='assets/profile.jpg') }}" alt="Profile Picture">
+            </div>
+            <div class="contact-subscribe">
+                <button onclick="location.href='{{ url_for('contact') }}'">Contact</button>
+                <form action="/subscribe" method="post">
+                    <input type="email" name="email" placeholder="Subscribe to newsletter">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
         <p>&copy; 2024 Amanda Ford Designs</p>
     </footer>
 </body>

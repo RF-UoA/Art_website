@@ -51,6 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .strip {
@@ -245,7 +246,7 @@ p.available-works-description {
 
 div.works {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr)); /* Creates a three-column layout */
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); /* Creates a three-column layout */
     gap: 20px;
     margin-bottom: 80px;
 }
@@ -258,6 +259,11 @@ div.work {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+div.work:hover {
+    background-color: #474342;
+    cursor: pointer;
 }
 
 div.fit-image {
@@ -360,7 +366,11 @@ h3.work-price {
     nav.bottom-strip.active {
         display: block;
         margin-bottom: 20px;
-    }   
+    }  
+    
+    .hero {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 1024px) { /* Adjusts for devices with width up to 1024px */

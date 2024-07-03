@@ -12,7 +12,11 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="strip top-strip"></div> <!-- Top white strip -->
+        <div class="strip logo-strip">
+            <img id="logo" src="{{ url_for('static', filename='assets/logo.png') }}" alt="Amanda Ford Designs">
+        </div> <!-- Middle brown strip -->
+        <nav class="strip bottom-strip">
             <ul>
                 <li><a href="{{ url_for('index') }}">Available works</a></li>
                 <li><a href="{{ url_for('posts') }}">Posts</a></li>

@@ -1,0 +1,56 @@
+body {
+    margin: 0 0 0 0;
+}
+
+.strip {
+    background-color: white;
+    width: 100%;
+}
+
+/* Style for the top white strip */
+.top-strip {
+    height: 10px; /* Adjust the height as needed */
+}
+
+/* Adjusted style for the middle brown strip */
+.logo-strip {
+    /* background-color: #474342; */
+    background-color: white;
+    /* Ensure the strip scales with the content */
+    display: flex; /* Use flexbox to center the image vertically if needed */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+/* Style for the bottom white strip containing navigation */
+.bottom-strip {
+    padding: 10px 0; /* Adjust padding for vertical spacing */
+}
+
+.bottom-strip ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bottom-strip ul li {
+    display: inline; /* Display links in a row */
+    margin-right: 20px; /* Space between links */
+}
+
+.bottom-strip ul li a {
+    color: black; /* Text color for links in the bottom strip */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Additional styling for hover effects */
+.bottom-strip ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Adjust the image size as needed */
+img#logo {
+    max-height: 15em; /* This will dictate the height of the .logo-strip */
+}

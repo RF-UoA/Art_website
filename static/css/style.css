@@ -22,6 +22,18 @@ body {
 .burger-menu {
     display: none;
     cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: #937F7A;
+}
+
+.burger-menu i {
+    transition: transform 0.5s ease; /* Apply transition to the default state */
+}
+
+.burger-menu i.rotate {
+    transform: rotate(90deg); /* Rotate the icon 90 degrees */
+    transition: transform 0.5s ease; /* Smooth transition */
 }
 
 .burger-menu span {
@@ -29,7 +41,8 @@ body {
     width: 25px;
     height: 3px;
     margin: 5px;
-    background-color: #333;
+    background-color: #937F7A;
+    border-radius: 2px;
 }
 
 /* end burger menu */
@@ -268,6 +281,7 @@ p.available-works-description {
     h1.available-works-title {
         font-size: 2em;
         margin-bottom: 10px;
+        margin-top: 0px;
     }
     
     h2.available-works-subtitle {
@@ -289,6 +303,21 @@ p.available-works-description {
 
     nav.strip.bottom-strip ul.active {
         display: flex; 
+    }
+    
+    nav.strip.bottom-strip ul li {
+        display: block; 
+        margin: 5px 0; 
+    }
+
+    nav.bottom-strip {
+        display: none;
+    }
+    
+    /* When active, display the bottom-strip */
+    nav.bottom-strip.active {
+        display: block;
+        margin-bottom: 20px;
     }
     
 }

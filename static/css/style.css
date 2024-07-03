@@ -17,6 +17,23 @@ body {
     align-self: center;
 }
 
+/* burger menu */
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.burger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #333;
+}
+
+/* end burger menu */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -50,6 +67,7 @@ body {
 
 .bottom-strip {
     padding: 10px 0;
+    margin-top: 10px;
 }
 
 .bottom-strip ul {
@@ -72,7 +90,7 @@ body {
 }
 
 .bottom-strip ul li a:hover {
-    text-decoration: underline;
+    color: #a78f8a;
 }
 
 img#logo {
@@ -187,12 +205,45 @@ div.footer-bottom-strip {
 
 /* End footer elements */
 
+/* Begin available works content */
+
+h1.available-works-title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    color: #474342;
+}
+
+h2.available-works-subtitle {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+    color: #937F7A;
+}
+
+p.available-works-description {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+    /* increase line spacing */
+    line-height: 1.5;
+}
+
+/* End available works content */
+
 @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
+    
+    .content {
+        width: 80%;
+    }
+    
     img#logo {
         max-height: 8em;
         position: relative;
         z-index: 2;
     }
+    
     .behind-logo {
         position: absolute;
         top: 0;
@@ -203,6 +254,7 @@ div.footer-bottom-strip {
         z-index: 1;
         margin-top: 0.95em;
     }
+    
     .footer-content {
         flex-direction: column;
         align-items: center;
@@ -212,6 +264,31 @@ div.footer-bottom-strip {
         width: 80px;
         height: 80px;
     }
+    
+    h1.available-works-title {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    h2.available-works-subtitle {
+        font-size: 1.2em;
+    }
+    
+    p.available-works-description {
+        font-size: 0.8em;
+    }
+    
+    .burger-menu {
+        display: block;
+    }
 
+    nav.strip.bottom-strip ul {
+        display: none; 
+        flex-direction: column; 
+    }
 
+    nav.strip.bottom-strip ul.active {
+        display: flex; 
+    }
+    
 }

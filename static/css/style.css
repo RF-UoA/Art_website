@@ -291,6 +291,38 @@ h3.work-price {
 
 /* End available works content */
 
+/* Start of About content */
+
+h2.about-title {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #474342;
+}
+
+p.about-contents {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+img.about-profile-image {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+    /* border-radius: 50%; */
+}
+
+div.about-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* End of About content */
+
 @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
     
     .content {

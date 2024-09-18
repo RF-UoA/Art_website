@@ -1,7 +1,25 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="about">
-    <h2>About</h2>
-    <p>About page</p>
+    <h2 class=about-title>Amanda Ford</h2>
+    <p class="about-contents">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum semper odio a sodales. 
+    Maecenas dignissim dignissim dolor vitae interdum. Nulla facilisi. Interdum et malesuada fames ac 
+    ante ipsum primis in faucibus. Nam vitae arcu non felis pellentesque scelerisque nec nec ante. 
+    Curabitur fringilla ullamcorper augue, vel scelerisque lectus feugiat eget. Aenean non urna facilisis, 
+    commodo est eu, ultrices risus.
+    <br><br> 
+    Praesent lacus massa, eleifend vitae ultricies eget, gravida in massa. Aliquam congue sapien in magna 
+    dignissim, ullamcorper dapibus nunc iaculis. Nam mollis volutpat justo tempor sollicitudin. Sed 
+    fermentum metus nec augue auctor, ac egestas dui dictum. Fusce sodales enim ac congue mollis. Quisque 
+    sed neque in metus tempus egestas ac id orci. Mauris aliquam augue eget porta euismod. Orci varius 
+    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc pretium interdum 
+    elementum. Maecenas sit amet eleifend eros, quis imperdiet nisl. Duis nec cursus nunc. Proin euismod 
+    gravida tellus et suscipit. Quisque ullamcorper libero non erat tempor mollis. Maecenas ut mauris magna. 
+    Phasellus blandit luctus ligula, vel ultrices neque egestas fermentum.
+    </p>
+    <div class="about-image-container">
+        <img class="about-profile-image" src="{{ url_for('static', filename='assets/about-picture-all.png') }}" alt="Profile Picture" class="profile-image">
+    </div>
 </section>
 {% endblock %}

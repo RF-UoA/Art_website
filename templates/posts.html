@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="posts">
-    <h2>Posts</h2>
-    <p>This is where posts & updates can be shown. Include section to subscribe to posts</p>
+    <script>
+        // Remove referral link from Juicer embed
+        function clean() {
+            const referralElement = document.querySelector('h1.referral');
+            if (referralElement) {
+                referralElement.remove();
+            }
+        }
+    </script>
+    <div class="margin-top"></div>
+    <script type="text/javascript" src="https://www.juicer.io/embed/fordamanda/embed-code.js?after=clean()" async defer></script>
+
 </section>
 {% endblock %}

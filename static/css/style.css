@@ -323,6 +323,14 @@ div.about-image-container {
 
 /* End of About content */
 
+/* Start Posts content */
+
+div.margin-top {
+    margin-top: 50px;
+}
+
+/* End Posts content */
+
 @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
     
     .content {

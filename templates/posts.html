@@ -2,16 +2,38 @@
 {% block content %}
 <section id="posts">
     <script>
-        // Remove referral link from Juicer embed
         function clean() {
             const referralElement = document.querySelector('h1.referral');
             if (referralElement) {
                 referralElement.remove();
+                return true;
             }
+            return false;
         }
-    </script>
-    <div class="margin-top"></div>
-    <script type="text/javascript" src="https://www.juicer.io/embed/fordamanda/embed-code.js?after=clean()&per=10" async defer></script>
 
+        window.clean = clean;
+
+        window.addEventListener('load', function() {
+            const observer = new MutationObserver(function(mutationsList, observer) {
+                for (let mutation of mutationsList) {
+                    if (mutation.type === 'childList') {
+                        if (clean()) {
+                            observer.disconnect(); // Stop observing once the element is removed
+                            console.log('Element removed');
+                            document.querySelector('#posts .content').style.display = 'block'; // Show the content
+                        }
+                    }
+                }
+            });
+
+            // Start observing the document for added nodes
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
+    </script>
+    <div class="content" style="display: none;">
+        <div class="margin-top"></div>
+        <!-- Your content here -->
+    </div>
+    <script type="text/javascript" src="https://www.juicer.io/embed/fordamanda/embed-code.js?per=10" async defer></script>
 </section>
 {% endblock %}

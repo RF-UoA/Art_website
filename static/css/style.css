@@ -374,6 +374,40 @@ h2.posts-title {
 
 /* End Posts content */
 
+/* Start portfolio contents */
+
+div.spacer {
+    margin-top: 20px;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* This applies both vertical and horizontal gaps */
+    /* width: 100%; */
+}
+
+.grid-item {
+    max-width: 300px; 
+    /* width: 100%; */
+}
+
+.grid-item img {
+    /* width: 100%; */
+    max-width: 300px;
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra spacing caused by inline images */
+    padding: 5px 0px 5px 0px;
+}
+
+/* end portfolio contents */
+
 @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
     
     .content {

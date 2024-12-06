@@ -408,6 +408,68 @@ div.spacer {
 
 /* end portfolio contents */
 
+/* start of contact contents */
+
+div.contact-column-container {
+    margin-top: 100px;
+    display: flex;
+}
+
+div.left-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+div.right-column {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: right;
+    margin-left: 200px;
+}
+
+h1.contact-name {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #474342;
+    margin-top: 0px;
+}
+
+h2.contact {
+    margin-bottom: 0px;
+    color: #474342;
+    font-size: 1.2em;
+}
+
+h2.role {
+    margin-bottom: 100px;
+    color: #937F7A;
+}
+
+h3.email {
+    color: #474342;
+    font-size: 1.2em;
+}
+
+.social-links-contact i {
+    color: #474342;
+    font-size: 2.5em;
+    margin: 0 20px 0 0;
+}
+
+img.contact-profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+div.profile-area-contact {
+    text-align: center;
+}
+
+/* end of contact contents */
+
 @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
     
     .content {
@@ -500,9 +562,35 @@ div.spacer {
     /* End Posts */
 }
 
-@media (max-width: 1024px) { /* Adjusts for devices with width up to 1024px */
+@media (max-width: 1424px) { /* Adjusts for devices with width up to 1024px */
     
     .content {
         width: 80%;
+    }
+
+    div.contact-column-container {
+        margin-top: 100px;
+        display: inline;
+    }
+
+    div.right-column {
+        margin-top: 50px;
+        margin-left: 0px !important;
+        justify-content: left;
+        margin-left: 200px;
+    }
+
+    h2.mhide {
+        display: none;
+    }
+
+    h2.role {
+        margin-bottom: 50px;
+    }
+    
+    img.contact-profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
     }
 }

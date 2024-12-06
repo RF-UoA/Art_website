@@ -1,7 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Contact page</p>
+    <div class="contact-column-container">
+        <div class="left-column">
+            <h2 class="contact">CONTACT</h2>
+            <h1 class="contact-name">AMANDA FORD</h1>
+            <h2 class="role">ARTIST</h2>
+            <h3 class="email">amandaforddesigns@gmail.com</h3>
+            <div class="social-links-contact">
+                <a href="https://www.facebook.com/amandaforddesigns/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/fordamanda" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>   
+        </div>
+        <div class="right-column">
+            <div class="profile-area profile-area-contact">
+                <div class="profile-picture">
+                    <img class="contact-profile-image" src="{{ url_for('static', filename='assets/profile-placeholder.png') }}" alt="Profile Picture">
+                </div>
+                <h2 class="role mhide">Amanda Ford</h2>
+            </div>
+        </div>
+    </div>
+
 </section>
 {% endblock %}

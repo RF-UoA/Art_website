@@ -24,7 +24,7 @@
         <nav class="strip bottom-strip">
             <ul>
                 <li><a href="{{ url_for('index') }}">AVAILABLE WORKS</a></li>
-                <li><a href="{{ url_for('posts') }}">POSTS</a></li>
+                {# <li><a href="{{ url_for('posts') }}">POSTS</a></li> #}
                 <li><a href="{{ url_for('about') }}">ABOUT</a></li>
                 <li><a href="{{ url_for('portfolio') }}">PORTFOLIO</a></li>
                 <li><a href="{{ url_for('contact') }}">CONTACT</a></li>
@@ -46,13 +46,13 @@
                 </div>
                 <button class="contact" onclick="location.href='{{ url_for('contact') }}'">Contact</button>
             </div>
-            <p class="subscribe-message">STAY UP TO DATE ON LATEST POSTS</p>
+            {# <p class="subscribe-message">STAY UP TO DATE ON LATEST POSTS</p>
             <div class="contact-subscribe">
                 <form action="/subscribe" method="post">
                     <input type="email" name="email" placeholder="Enter email to subscribe">
                     <button class="subscribe" type="submit">Subscribe</button>
                 </form>
-            </div>
+            </div> #}
         </div>
         <div class="social-links">
             <a href="https://www.facebook.com/amandaforddesigns/" target="_blank"><i class="fab fa-facebook"></i></a>

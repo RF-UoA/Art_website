@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="posts">
+    <h2 class="posts-title">The latest from Amanda</h2>
+    <div class="subtitle">
+        <a href="https://www.instagram.com/fordamanda" target="_blank">
+            <i class="fab fa-instagram"></i> fordamanda
+        </a>
+        &nbsp;|&nbsp;
+        <a href="https://www.facebook.com/amandaforddesigns" target="_blank">
+            <i class="fab fa-facebook"></i> Amanda Ford Designs
+        </a>
+    </div>
+    <div class="content" style="display: none;">
+        <div class="margin-top"></div>
+    </div>
+    <script>
+        function clean() {
+            const referralElement = document.querySelector('h1.referral');
+            if (referralElement) {
+                //referralElement.remove();
+                referralElement.style.display = 'none';
+                console.log('Element removed');
+                return true;
+            }
+            return false;
+        }
+
+        window.clean = clean;
+
+        window.addEventListener('load', function() {
+            const observer = new MutationObserver(function(mutationsList, observer) {
+                for (let mutation of mutationsList) {
+                    if (mutation.type === 'childList') {
+                        if (clean()) {
+                            observer.disconnect(); // Stop observing once the element is removed
+                            //console.log('Element removed');
+                            document.querySelector('#posts .content').style.display = 'block'; // Show the content
+                        }
+                    }
+                }
+            });
+
+            // Start observing the document for added nodes
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
+    </script>
+    <div class="content" style="display: none;">
+        <div class="margin-top"></div>
+        <!-- Your content here -->
+    </div>
+    <script type="text/javascript" src="https://www.juicer.io/embed/fordamanda/embed-code.js?per=10" async defer></script>
+    {# <script type="text/javascript" src="{{ url_for('static', filename='js/posts.js') }}" async defer></script> #}
+</section>
+{% endblock %}

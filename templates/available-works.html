@@ -12,69 +12,15 @@
         </p>
     </div>
     <div class="works">
+    {% for image in images %}
         <div class="work">
             <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/1.jpg') }}" alt="Available Work 1">
-                <h3 class="work-title">Work Title 1</h3>
-                <h3 class="work-price">$100</h3>
-            </div> 
+                <img src="{{ url_for('static', filename=image) }}" alt="Available Work {{ loop.index }}">
+                <h3 class="work-title">Work Title {{ loop.index }}</h3>
+                <h3 class="work-price">${{ loop.index }}</h3>
+            </div>
         </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/2.jpg') }}" alt="Available Work 2">
-                <h3 class="work-title">Work Title 2</h3>
-                <h3 class="work-price">$200</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/3s.jpg') }}" alt="Available Work 3">
-                <h3 class="work-title">Work Title 3</h3>
-                <h3 class="work-price">$300</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/4s.jpg') }}" alt="Available Work 4">
-                <h3 class="work-title">Work Title 4</h3>
-                <h3 class="work-price">$400</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/5s.jpg') }}" alt="Available Work 5">
-                <h3 class="work-title">Work Title 5</h3>
-                <h3 class="work-price">$500</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/6s.jpg') }}" alt="Available Work 6">
-                <h3 class="work-title">Work Title 6</h3>
-                <h3 class="work-price">$600</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/7s.jpg') }}" alt="Available Work 7">
-                <h3 class="work-title">Work Title 7</h3>
-                <h3 class="work-price">$700</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/8s.jpg') }}" alt="Available Work 8">
-                <h3 class="work-title">Work Title 8</h3>
-                <h3 class="work-price">$800</h3>
-            </div> 
-        </div>
-        <div class="work">
-            <div class="fit-image">
-                <img src="{{ url_for('static', filename='assets/works/9.jpg') }}" alt="Available Work 9">
-                <h3 class="work-title">Work Title 9</h3>
-                <h3 class="work-price">$900</h3>
-            </div> 
-        </div>
+    {% endfor %}
     </div>
 </section>
 {% endblock %}

@@ -1,10 +1,13 @@
+import os
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('available-works.html', title='Available Works')
+    scaled_folder = os.path.join(app.static_folder, 'assets/scaled')
+    images = ['/'.join(['assets/scaled', filename]) for filename in os.listdir(scaled_folder) if filename.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
+    return render_template('available-works.html', title='Available Works', images=images)
 
 # @app.route('/posts')
 # def posts():
@@ -16,7 +19,9 @@ def about():
 
 @app.route('/portfolio')
 def portfolio():
-    return render_template('portfolio.html', title='Portfolio')
+    works_folder = os.path.join(app.static_folder, 'assets/works')
+    images = ['/'.join(['assets/works', filename]) for filename in os.listdir(works_folder) if filename.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
+    return render_template('portfolio.html', title='Portfolio', images=images)
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():

@@ -4,15 +4,11 @@
     <div class="spacer"></div>
     <div class="grid-wrapper">
         <div class="grid">
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/1.jpg') }}" alt="Painting 1"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/2.jpg') }}" alt="Painting 2"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/3.jpg') }}" alt="Painting 3"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/4.jpg') }}" alt="Painting 4"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/5.jpg') }}" alt="Painting 5"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/6.jpg') }}" alt="Painting 6"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/7.jpg') }}" alt="Painting 7"></div>
-            <div class="grid-item"><img src="{{ url_for('static', filename='assets/works/8.jpg') }}" alt="Painting 8"></div>
-            <!-- More grid items -->
+            {% for image in images %}
+                <div class="grid-item">
+                    <img src="{{ url_for('static', filename=image) }}" alt="Painting {{ loop.index }}">
+                </div>
+            {% endfor %}
         </div>
     </div>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>

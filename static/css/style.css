@@ -257,17 +257,17 @@ div.work {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    aspect-ratio: 0.85 / 1;
+    aspect-ratio: 0.75 / 1;
 }
 
-div.work:hover {
+/* div.work:hover {
     background-color: #474342;
     cursor: pointer;
-}
+} */
 
 div.fit-image {
     width: 100%;
-    height: 85%; /* align with div.work aspect-ratio */
+    height: 75%; /* align with div.work aspect-ratio */
 }
 
 div.work img {
@@ -466,6 +466,10 @@ img.contact-profile-image {
 
 div.profile-area-contact {
     text-align: center;
+}
+
+p.please-email {
+    margin-bottom: 0px;
 }
 
 /* end of contact contents */

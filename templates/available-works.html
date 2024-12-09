@@ -2,17 +2,15 @@
 {% block content %}
 <section id="available-works">
     <div class="hero">
-        <h1 class="available-works-title">CURRENT EXHIBITION</h1>
-        <h2 class="available-works-subtitle">Slightly longer blurb about artworks and what they depict etc... this should span about two lines</h2>
+        <h1 class="available-works-title">AVAILABLE WORKS</h1>
+        <h2 class="available-works-subtitle">Now exhibiting at Lambert's Estate Barossa Valley! Visit between December 2024 and February 2025 to view the full exhibition</h2>
         <p class="available-works-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat consequat tellus. Proin dignissim sed eros sit amet pretium. 
-            Cras volutpat fringilla elit, non varius massa maximus id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur 
-            ridiculus mus. Donec ac urna sit amet nisl mollis ultrices. Nam a turpis massa. Aenean pulvinar vel odio eget vulputate. Morbi id 
-            aliquet mauris.
+        If you are interested in acquiring any of the below artworks they are available through Lambert's Estate as part of my current exhibition from 12th December 2024 to 19th February 2025. Please contact them directly on (08) 8564 2222.
+        For commissions or other enquiries, please find my email on the Contact page and I will respond to your query.
         </p>
     </div>
     <div class="works">
-    {% for image in images %}
+    {# {% for image in images %}
         <div class="work">
             <div class="fit-image">
                 <img src="{{ url_for('static', filename=image) }}" alt="Available Work {{ loop.index }}">
@@ -20,7 +18,98 @@
                 <h3 class="work-price">$1200</h3>
             </div>
         </div>
-    {% endfor %}
+    {% endfor %} #}
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/01.jpg') }}" alt="Available Work">
+                <h3 class="work-title">I've Got You<br>Acrylic on Canvas - Framed<br>1.2m x 1.2m</h3>
+                <h3 class="work-price">$1,200</h3>
+            </div>
+        </div>   
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/02.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Summer Friendship<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/03.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Can I See?<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/04.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Farmstay<br>Acrylic on Canvas - Framed<br>101cm x 76cm</h3>
+                <h3 class="work-price">$1,045</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/05.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Come With Me<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/06.jpg') }}" alt="Available Work">
+                <h3 class="work-title">A Journey Shared<br>Acrylic on Canvas<br>76cm x 101cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>     
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/07.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Sisters<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>    
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/08.jpg') }}" alt="Available Work">
+                <h3 class="work-title">The Beginning<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/09.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Golden Hour<br>Acrylic on Canvas<br>101cm x 76cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/10.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Tempest<br>Acrylic on Canvas<br>91cm x 91cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>   
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/11.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Calmer Shores<br>Acrylic on Canvas<br>76cm x 101cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>          
+        </div>   
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/12.jpg') }}" alt="Available Work">
+                <h3 class="work-title">The Warbler's Shadow<br>Acrylic on Canvas - Framed<br>1.2m x 1.2m</h3>
+                <h3 class="work-price">$1,200</h3>
+            </div>
+        </div> 
+        <div class="work">
+            <div class="fit-image">
+                <img src="{{ url_for('static', filename='assets/scaled/13.jpg') }}" alt="Available Work">
+                <h3 class="work-title">Council Meeting<br>Acrylic on Canvas<br>76cm x 101cm</h3>
+                <h3 class="work-price">$795</h3>
+            </div>
+        </div>                                                                               
     </div>
 </section>
 {% endblock %}

@@ -16,6 +16,9 @@ def index():
     
     filenames = [i['filename'] for i in works_dict]
 
+    for i, _ in enumerate(works_dict):
+        works_dict[i]['filename'] = '/'.join(['assets/scaled', works_dict[i]['filename']])
+
     scaled_folder = os.path.join(app.static_folder, 'assets/scaled')
     images = ['/'.join(['assets/scaled', filename]) for filename in filenames]
     print(works_dict[0])
@@ -43,4 +46,4 @@ def contact():
     return render_template('contact.html', title='Contact')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

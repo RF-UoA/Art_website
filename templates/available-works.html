@@ -10,16 +10,16 @@
         </p>
     </div>
     <div class="works">
-    {# {% for image in images %}
+    {% for i in works %}
         <div class="work">
             <div class="fit-image">
-                <img src="{{ url_for('static', filename=image) }}" alt="Available Work {{ loop.index }}">
-                <h3 class="work-title">I've Got You<br>Acrylic on Canvas - framed<br>1.2m x 1.2m</h3>
+                <img src="{{ url_for('static', filename=i['filename']) }}" alt="Available Work {{ loop.index }}">
+                <h3 class="work-title">{{ i['title'] }}<br>Acrylic on Canvas - framed<br>1.2m x 1.2m</h3>
                 <h3 class="work-price">$1200</h3>
             </div>
         </div>
-    {% endfor %} #}
-        <div class="work">
+    {% endfor %}
+        {# <div class="work">
             <div class="fit-image">
                 <img src="{{ url_for('static', filename='assets/scaled/01.jpg') }}" alt="Available Work">
                 <h3 class="work-title">I've Got You<br>Acrylic on Canvas - Framed<br>1.2m x 1.2m</h3>
@@ -109,7 +109,7 @@
                 <h3 class="work-title">Council Meeting<br>Acrylic on Canvas<br>76cm x 101cm</h3>
                 <h3 class="work-price">$795</h3>
             </div>
-        </div>                                                                               
+        </div> #}
     </div>
 </section>
 {% endblock %}

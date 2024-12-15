@@ -1,0 +1,319 @@
+artwork:
+  - beach_walk:
+      filename: beach_walk.jpg
+      title: Beach Walk
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - three_of_us:
+      filename: three_of_us.jpg
+      title: Three Of Us
+      medium: Acrylic on Canvas
+      dims: 40.5cm x 31.5cm
+      price: $330
+  - jetty_walk:
+      filename: jetty_walk.jpg
+      title: Jetty Walk
+      medium: Watercolour - framed
+      dims: 29.7cm x 21cm
+      price: $225
+  - beach_time:
+      filename: beach_time.jpg
+      title: Beach Time
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - take_my_hand:
+      filename: take_my_hand.jpg
+      title: Take My Hand
+      medium: Acrylic on Canvas
+      dims: 30.5cm x 30.5cm
+      price: $295
+  - rust_and_resilience:
+      filename: rust_and_resilience.jpg
+      title: Rust & Resilience
+      medium: Acrylic on Canvas
+      dims: 51cm x 76cm
+      price: $525
+  - black_cockatoo:
+      filename: black_cockatoo.jpg
+      title: Black Cockatoo
+      medium: Limited Edition Print - framed
+      dims: 45cm x 62cm
+      price: $180
+  - cockatiel:
+      filename: cockatiel.jpg
+      title: Cockatiel
+      medium: Acrylic on Board
+      dims: 35.5cm x 25.5cm
+      price: $195
+  - crash_landing:
+      filename: crash_landing.jpg
+      title: Crash Landing
+      medium: Watercolour on Canvas - framed
+      dims: 42cm x 52cm
+      price: $420
+  - frizzled:
+      filename: frizzled.jpg
+      title: Frizzled
+      medium: Soft Pastel on Paper - framed
+      dims: 38.5cm x 31cm
+      price: $275
+  - the_king:
+      filename: the_king.jpg
+      title: The King
+      medium: Watercolour on Canvas
+      dims: 76cm x 51cm
+      price: $495
+  - the_poser:
+      filename: the_poser.jpg
+      title: The Poser
+      medium: Acrylic on Paper - framed
+      dims: 56cm x 46cm
+      price: $420
+  - the_showman:
+      filename: the_showman.jpg
+      title: The Showman
+      medium: Acrylic on Canvas
+      dims: 20cm x 20cm
+      price: $145
+  - the_vocalist:
+      filename: the_vocalist.jpg
+      title: The Vocalist
+      medium: Acrylic on Canvas
+      dims: 61cm x 61cm
+      price: $495
+  - three's_a_crowd:
+      filename: three's_a_crowd.jpg
+      title: Three's a Crowd
+      medium: Watercolour on Canvas
+      dims: 61cm x 45cm
+      price: $420
+  - no_bull:
+      filename: no_bull.jpg
+      title: No Bull
+      medium: Acrylic on Canvas
+      dims: 50cm x 40cm
+      price: $380
+  - bush_buddies_1:
+      filename: bush_buddies_1.jpg
+      title: Bush Buddies Triptych (1)
+      medium: Acrylic on Canvas
+      dims: 30cm x 30cm
+      price: $695 (for complete triptych)
+  - bush_buddies_2:
+      filename: bush_buddies_2.jpg
+      title: Bush Buddies Triptych (2)
+      medium: Acrylic on Canvas
+      dims: 30cm x 30cm
+      price: $695 (for complete triptych)
+  - bush_buddies_3:
+      filename: bush_buddies_3.jpg
+      title: Bush Buddies Triptych (3)
+      medium: Acrylic on Canvas
+      dims: 30cm x 30cm
+      price: $695 (for complete triptych)
+  - koala:
+      filename: koala.jpg
+      title: Koala
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - cow:
+      filename: cow.jpg
+      title: Cow
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - pig:
+      filename: pig.jpg
+      title: Pig
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - dog:
+      filename: dog.jpg
+      title: Dog
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - rusty:
+      filename: rusty.jpg
+      title: Rusty
+      medium: Acrylic on Board - framed
+      dims: 33cm x 24cm
+      price: $210
+  - black_lab:
+      filename: black_lab.jpg
+      title: Black Lab
+      medium: Acrylic on Board - framed
+      dims: 28cm x 22.5cm
+      price: $210
+  - cat:
+      filename: cat.jpg
+      title: Cat
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - crab:
+      filename: crab.jpg
+      title: Crab
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - fish:
+      filename: fish.jpg
+      title: Fish
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - crayfish:
+      filename: crayfish.jpg
+      title: Crayfish
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - turtle:
+      filename: turtle.jpg
+      title: Turtle
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - apple:
+      filename: apple.jpg
+      title: Apple
+      medium: Acrylic on Board
+      dims: 15cm x 15cm
+      price: $95
+  - avocado:
+      filename: avocado.jpg
+      title: Avocado
+      medium: Acrylic on Board
+      dims: 15cm x 15cm
+      price: $95
+  - grapes:
+      filename: grapes.jpg
+      title: Grapes
+      medium: Acrylic on Board
+      dims: 15cm x 15cm
+      price: $95
+  - oranges:
+      filename: oranges.jpg
+      title: Oranges
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - watermelon:
+      filename: watermelon.jpg
+      title: Watermelon
+      medium: Acrylic on Board - framed
+      dims: 29cm x 33.5cm
+      price: $210
+  - pineapple:
+      filename: pineapple.jpg
+      title: Pineapple
+      medium: Acrylic on Board - framed
+      dims: 33.5cm x 28.5cm
+      price: $210
+  - watermelon_cocktail:
+      filename: watermelon_cocktail.jpg
+      title: Watermelon Cocktail
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - mojito:
+      filename: mojito.jpg
+      title: Mojito
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - maison_jars:
+      filename: maison_jars.jpg
+      title: Maison Jars
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - pumpkin:
+      filename: pumpkin.jpg
+      title: Pumpkin
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - coffee_time:
+      filename: coffee_time.jpg
+      title: Coffee Time
+      medium: Acrylic on Board
+      dims: 20cm x 25cm
+      price: $195
+  - teapot:
+      filename: teapot.jpg
+      title: Teapot
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - cappuccino:
+      filename: cappuccino.jpg
+      title: Cappuccino
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - devil_wears_prada:
+      filename: devil_wears_prada.jpg
+      title: Devil Wears Prada
+      medium: Acrylic on Board
+      dims: 41cm x 41cm
+      price: $295
+  - the_vw:
+      filename: the_vw.jpg
+      title: The VW
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - venice:
+      filename: venice.jpg
+      title: Venice
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - the_gondoliere:
+      filename: the_gondoliere.jpg
+      title: The Gondoliere
+      medium: Acrylic on Board
+      dims: 20cm x 25cm
+      price: $195
+  - chrysanthemum:
+      filename: chrysanthemum.jpg
+      title: Chrysanthemum
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - daffodils:
+      filename: daffodils.jpg
+      title: Daffodils
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - dahlia:
+      filename: dahlia.jpg
+      title: Dahlia
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - daisy:
+      filename: daisy.jpg
+      title: Daisy
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - lilacs:
+      filename: lilacs.jpg
+      title: Lilacs
+      medium: Acrylic on Board
+      dims: 25cm x 20cm
+      price: $195
+  - tulips:
+      filename: tulips.jpg
+      title: Tulips
+      medium: Acrylic on Board
+      dims: 30.5cm x 30.5cm
+      price: $250

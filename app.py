@@ -19,7 +19,6 @@ def index():
     for i, _ in enumerate(works_dict):
         works_dict[i]['filename'] = '/'.join(['assets/scaled', works_dict[i]['filename']])
 
-    scaled_folder = os.path.join(app.static_folder, 'assets/scaled')
     images = ['/'.join(['assets/scaled', filename]) for filename in filenames]
     print(works_dict[0])
     return render_template('available-works.html', title='Available Works', images=images, works=works_dict)

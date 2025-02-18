@@ -118,7 +118,7 @@ artwork:
       title: Koala
       medium: Acrylic on Board
       dims: 20cm x 20cm
-      price: $145
+      price: SOLD
   - cow:
       filename: cow.jpg
       title: Cow
@@ -196,7 +196,7 @@ artwork:
       title: Grapes
       medium: Acrylic on Board
       dims: 15cm x 15cm
-      price: $95
+      price: SOLD
   - oranges:
       filename: oranges.jpg
       title: Oranges

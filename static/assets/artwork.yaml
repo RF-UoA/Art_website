@@ -1,4 +1,70 @@
 artwork:
+  - the_swoop:
+      filename: the_swoop.jpg
+      title: The Swoop
+      medium: Acrylic on Board - framed
+      dims: 34.4cm x 34.5cm
+      price: $275
+  - cherries:
+      filename: cherries.jpg
+      title: Cherries
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - banana:
+      filename: banana.jpg
+      title: Banana
+      medium: Acrylic on Board
+      dims: 15cm x 15cm
+      price: $95
+  - the_gulls_gather:
+      filename: the_gulls_gather.jpg
+      title: The Gulls Gather
+      medium: Acrylic on Board
+      dims: 20cm x 20cm
+      price: $145
+  - twiggy_a_study:
+      filename: twiggy_a_study.jpg
+      title: Twiggy - A Study
+      medium: Acrylic on Canvas
+      dims: 61cm x 46cm
+      price: $590
+  - hot_dog:
+      filename: hot_dog.jpg
+      title: Hot Dog
+      medium: Acrylic on Board
+      dims: 30cm x 30cm
+      price: $295
+  - nellie:
+      filename: nellie.PNG
+      title: Nellie
+      medium: Acrylic on Board
+      dims: 30cm x 30cm
+      price: SOLD
+  - cocktail_hour:
+      filename: cocktail_hour.jpg
+      title: Cocktail Hour
+      medium: Acrylic on Board - framed
+      dims: 27cm x 22cm
+      price: $195
+  - green_bay:
+      filename: green_bay.jpg
+      title: Green Bay
+      medium: Acrylic on Paper - framed
+      dims: 56cm x 46cm
+      price: $420
+  - golden_flight:
+      filename: golden_flight.jpg
+      title: Golden Flight
+      medium: Acrylic on Canvas
+      dims: 51cm x 40cm
+      price: $420
+  - take_a_gander_at_this_goose:
+      filename: take_a_gander_at_this_goose.jpg
+      title: Take a Gander at this Goose
+      medium: Acrylic on paper - unframed
+      dims: 46cm x 33cm
+      price: $295
   - beach_walk:
       filename: beach_walk.jpg
       title: Beach Walk
@@ -317,69 +383,3 @@ artwork:
       medium: Acrylic on Board
       dims: 30.5cm x 30.5cm
       price: $250
-  - the_swoop:
-      filename: the_swoop.jpg
-      title: The Swoop
-      medium: Acrylic on Board - framed
-      dims: 34.4cm x 34.5cm
-      price: $275
-  - cherries:
-      filename: cherries.jpg
-      title: Cherries
-      medium: Acrylic on Board
-      dims: 20cm x 20cm
-      price: $145
-  - banana:
-      filename: banana.jpg
-      title: Banana
-      medium: Acrylic on Board
-      dims: 15cm x 15cm
-      price: $95
-  - the_gulls_gather:
-      filename: the_gulls_gather.jpg
-      title: The Gulls Gather
-      medium: Acrylic on Board
-      dims: 20cm x 20cm
-      price: $145
-  - twiggy_a_study:
-      filename: twiggy_a_study.jpg
-      title: Twiggy - A Study
-      medium: Acrylic on Canvas
-      dims: 61cm x 46cm
-      price: $590
-  - hot_dog:
-      filename: hot_dog.jpg
-      title: Hot Dog
-      medium: Acrylic on Board
-      dims: 30cm x 30cm
-      price: $295
-  - nellie:
-      filename: nellie.PNG
-      title: Nellie
-      medium: Acrylic on Board
-      dims: 30cm x 30cm
-      price: SOLD
-  - cocktail_hour:
-      filename: cocktail_hour.jpg
-      title: Cocktail Hour
-      medium: Acrylic on Board - framed
-      dims: 27cm x 22cm
-      price: $195
-  - green_bay:
-      filename: green_bay.jpg
-      title: Green Bay
-      medium: Acrylic on Paper - framed
-      dims: 56cm x 46cm
-      price: $420
-  - golden_flight:
-      filename: golden_flight.jpg
-      title: Golden Flight
-      medium: Acrylic on Canvas
-      dims: 51cm x 40cm
-      price: $420
-  - take_a_gander_at_this_goose:
-      filename: take_a_gander_at_this_goose.jpg
-      title: Take a Gander at this Goose
-      medium: Acrylic on paper - unframed
-      dims: 46cm x 33cm
-      price: $295

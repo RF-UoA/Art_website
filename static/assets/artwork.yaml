@@ -1,4 +1,136 @@
 artwork:
+  - after_the_fire:
+      filename: after_the_fire.jpg
+      title: After the Fire
+      medium: Acrylic, Ink & Oil on Canvas - framed
+      dims: 50cm x 50cm
+      price: $545
+  - regeneration:
+      filename: regeneration.jpg
+      title: Regeneration
+      medium: Acrylic, Ink & Oil on Canvas - framed
+      dims: 50cm x 50cm
+      price: $545
+  - flourish:
+      filename: flourish.jpg
+      title: Flourish
+      medium: Acrylic, Ink & Oil on Canvas - framed
+      dims: 50cm x 50cm
+      price: $545
+  - floral_abstract_i:
+      filename: floral_abstract_i.jpg
+      title: Floral Abstract I
+      medium: Acrylic on Canvas
+      dims: 61cm x 46cm
+      price: $380
+  - floral_abstract_ii:
+      filename: floral_abstract_ii.jpg
+      title: Floral Abstract II
+      medium: Acrylic on Canvas
+      dims: 61cm x 46cm
+      price: $380
+  - floral_abstract_iii:
+      filename: floral_abstract_iii.jpg
+      title: Floral Abstract III
+      medium: Acrylic on Canvas
+      dims: 61cm x 46cm
+      price: $380
+  - peace:
+      filename: peace.jpg
+      title: Peace
+      medium: Acrylic on Canvas - framed
+      dims: 54cm x 43cm
+      price: $495
+  - chrysanthemum:
+      filename: chrysanthemum.jpg
+      title: Chrysanthemum
+      medium: Acrylic on Board - framed
+      dims: 34.5cm x 34.5cm
+      price: $275
+  - magnolia:
+      filename: magnolia.jpg
+      title: Magnolia
+      medium: Acrylic on Canvas - framed
+      dims: 33cm x 33cm
+      price: $295
+  - daisy:
+      filename: daisy.jpg
+      title: Daisy
+      medium: Acrylic on Canvas
+      dims: 46cm x 36cm
+      price: $230
+  - the_warblers_shadow:
+      filename: the_warblers_shadow.jpg
+      title: The Warbler's Shadow
+      medium: Acrylic on Canvas - framed
+      dims: 1.2m x 1.2m
+      price: $1,200
+  - council_meeting:
+      filename: council_meeting.jpg
+      title: Council Meeting
+      medium: Acrylic on Canvas
+      dims: 76cm x 101cm
+      price: $795
+  - the_vocalist:
+      filename: the_vocalist.jpg
+      title: The Morning Warbler
+      medium: Acrylic on Canvas - framed
+      dims: 61cm x 61cm
+      price: $645
+  - the_poser:
+      filename: the_poser.jpg
+      title: Warbler's Watch
+      medium: Acrylic on Paper - framed
+      dims: 56cm x 46cm
+      price: $420
+  - three's_a_crowd:
+      filename: three's_a_crowd.jpg
+      title: Three's a Crowd
+      medium: Watercolour on Canvas - framed
+      dims: 61cm x 45cm
+      price: $545
+  - the_king:
+      filename: the_king.jpg
+      title: The King
+      medium: Watercolour on Canvas - framed
+      dims: 76cm x 51cm
+      price: $645
+  - crash_landing:
+      filename: crash_landing.jpg
+      title: Crash Landing
+      medium: Watercolour on Canvas - framed
+      dims: 42cm x 52cm
+      price: $420
+  - the_honey_eater:
+      filename: the_honey_eater.jpg
+      title: The Honey Eater
+      medium: Acrylic on Canvas
+      dims: 40cm x 50cm
+      price: $280
+  - hummingbird:
+      filename: hummingbird.jpg
+      title: Hummingbird
+      medium: Acrylic on Canvas
+      dims: 50cm x 40cm
+      price: $285
+  - blue_wren:
+      filename: blue_wren.jpg
+      title: Blue Wren
+      medium: Acrylic on Wood Panel
+      dims: 25cm x 20cm
+      price: $180
+  - sparrow:
+      filename: sparrow.jpg
+      title: Sparrow
+      medium: Acrylic on Wood Panel
+      dims: 25cm x 20cm
+      price: $180
+  - rainbow_lorikeet:
+      filename: rainbow_lorikeet.jpg
+      title: Rainbow Lorikeet
+      medium: Acrylic on Wood Panel
+      dims: 25cm x 20cm
+      price: $180
   - ive_got_you:
       filename: ive_got_you.jpg
       title: I've Got You
@@ -62,18 +194,6 @@ artwork:
   - calmer_shores:
       filename: calmer_shores.jpg
       title: Calmer Shores
-      medium: Acrylic on Canvas
-      dims: 76cm x 101cm
-      price: $795
-  - the_warblers_shadow:
-      filename: the_warblers_shadow.jpg
-      title: The Warbler's Shadow
-      medium: Acrylic on Canvas - framed
-      dims: 1.2m x 1.2m
-      price: $1,200
-  - council_meeting:
-      filename: council_meeting.jpg
-      title: Council Meeting
       medium: Acrylic on Canvas
       dims: 76cm x 101cm
       price: $795
@@ -191,48 +311,18 @@ artwork:
       medium: Acrylic on Board
       dims: 35.5cm x 25.5cm
       price: $195
-  - crash_landing:
-      filename: crash_landing.jpg
-      title: Crash Landing
-      medium: Watercolour on Canvas - framed
-      dims: 42cm x 52cm
-      price: $420
   - frizzled:
       filename: frizzled.jpg
       title: Frizzled
       medium: Soft Pastel on Paper - framed
       dims: 38.5cm x 31cm
       price: $275
-  - the_king:
-      filename: the_king.jpg
-      title: The King
-      medium: Watercolour on Canvas - framed
-      dims: 76cm x 51cm
-      price: $645
-  - the_poser:
-      filename: the_poser.jpg
-      title: Warbler's Watch
-      medium: Acrylic on Paper - framed
-      dims: 56cm x 46cm
-      price: $420
   - the_showman:
       filename: the_showman.jpg
       title: The Showman
       medium: Acrylic on Canvas
       dims: 51cm x 40.5cm
       price: $310
-  - the_vocalist:
-      filename: the_vocalist.jpg
-      title: The Morning Warbler
-      medium: Acrylic on Canvas - framed
-      dims: 61cm x 61cm
-      price: $645
-  - three's_a_crowd:
-      filename: three's_a_crowd.jpg
-      title: Three's a Crowd
-      medium: Watercolour on Canvas - framed
-      dims: 61cm x 45cm
-      price: $545
   - no_bull:
       filename: no_bull.jpg
       title: No Bull
@@ -425,12 +515,6 @@ artwork:
       medium: Acrylic on Board
       dims: 20cm x 25cm
       price: $195
-  - chrysanthemum:
-      filename: chrysanthemum.jpg
-      title: Chrysanthemum
-      medium: Acrylic on Board - framed
-      dims: 34.5cm x 34.5cm
-      price: $275
   - daffodils:
       filename: daffodils.jpg
       title: Daffodils
@@ -443,9 +527,9 @@ artwork:
       medium: Acrylic on Board - framed
       dims: 34.5cm x 34.5cm
       price: $275
-  - daisy:
-      filename: daisy.jpg
-      title: Daisy
+  - original_daisy:
+      filename: original_daisy.jpg
+      title: Original Daisy
       medium: Acrylic on Board
       dims: 20cm x 20cm
       price: $145

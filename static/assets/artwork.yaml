@@ -1,10 +1,88 @@
 artwork:
+  - ive_got_you:
+      filename: ive_got_you.jpg
+      title: I've Got You
+      medium: Acrylic on Canvas - framed
+      dims: 1.2m x 1.2m
+      price: SOLD
+  - summer_friendship:
+      filename: summer_friendship.jpg
+      title: Summer Friendship
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - can_i_see:
+      filename: can_i_see.jpg
+      title: Can I See?
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - farmstay:
+      filename: farmstay.jpg
+      title: Farmstay
+      medium: Acrylic on Canvas - framed
+      dims: 101cm x 76cm
+      price: $1,045
+  - come_with_me:
+      filename: come_with_me.jpg
+      title: Come With Me
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - a_journey_shared:
+      filename: a_journey_shared.jpg
+      title: A Journey Shared
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - sisters:
+      filename: sisters.jpg
+      title: Sisters
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - the_beginning:
+      filename: the_beginning.jpg
+      title: The Beginning
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - golden_hour:
+      filename: golden_hour.jpg
+      title: Golden Hour
+      medium: Acrylic on Canvas
+      dims: 101cm x 76cm
+      price: $795
+  - tempest:
+      filename: tempest.jpg
+      title: Tempest
+      medium: Acrylic on Canvas
+      dims: 91cm x 91cm
+      price: SOLD
+  - calmer_shores:
+      filename: calmer_shores.jpg
+      title: Calmer Shores
+      medium: Acrylic on Canvas
+      dims: 76cm x 101cm
+      price: $795
+  - the_warblers_shadow:
+      filename: the_warblers_shadow.jpg
+      title: The Warbler's Shadow
+      medium: Acrylic on Canvas - framed
+      dims: 1.2m x 1.2m
+      price: $1,200
+  - council_meeting:
+      filename: council_meeting.jpg
+      title: Council Meeting
+      medium: Acrylic on Canvas
+      dims: 76cm x 101cm
+      price: $795
   - the_swoop:
       filename: the_swoop.jpg
       title: The Swoop
       medium: Acrylic on Board - framed
       dims: 34.4cm x 34.5cm
-      price: $275
+      price: SOLD
   - cherries:
       filename: cherries.jpg
       title: Cherries
@@ -55,10 +133,10 @@ artwork:
       price: $420
   - golden_flight:
       filename: golden_flight.jpg
-      title: Golden Flight
+      title: Hummingbird
       medium: Acrylic on Canvas
       dims: 51cm x 40cm
-      price: $420
+      price: $285
   - take_a_gander_at_this_goose:
       filename: take_a_gander_at_this_goose.jpg
       title: Take a Gander at this Goose
@@ -82,7 +160,7 @@ artwork:
       title: Jetty Walk
       medium: Watercolour - framed
       dims: 29.7cm x 21cm
-      price: $225
+      price: SOLD
   - beach_time:
       filename: beach_time.jpg
       title: Beach Time
@@ -128,12 +206,12 @@ artwork:
   - the_king:
       filename: the_king.jpg
       title: The King
-      medium: Watercolour on Canvas
+      medium: Watercolour on Canvas - framed
       dims: 76cm x 51cm
-      price: $495
+      price: $645
   - the_poser:
       filename: the_poser.jpg
-      title: The Poser
+      title: Warbler's Watch
       medium: Acrylic on Paper - framed
       dims: 56cm x 46cm
       price: $420
@@ -145,16 +223,16 @@ artwork:
       price: $310
   - the_vocalist:
       filename: the_vocalist.jpg
-      title: The Vocalist
-      medium: Acrylic on Canvas
+      title: The Morning Warbler
+      medium: Acrylic on Canvas - framed
       dims: 61cm x 61cm
-      price: $495
+      price: $645
   - three's_a_crowd:
       filename: three's_a_crowd.jpg
       title: Three's a Crowd
-      medium: Watercolour on Canvas
+      medium: Watercolour on Canvas - framed
       dims: 61cm x 45cm
-      price: $420
+      price: $545
   - no_bull:
       filename: no_bull.jpg
       title: No Bull
@@ -382,4 +460,4 @@ artwork:
       title: Tulips
       medium: Acrylic on Board
       dims: 30.5cm x 30.5cm
-      price: $250
+      price: SOLD

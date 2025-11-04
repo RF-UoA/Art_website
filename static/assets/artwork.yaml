@@ -251,12 +251,6 @@ artwork:
       medium: Acrylic on Paper - framed
       dims: 56cm x 46cm
       price: $420
-  - golden_flight:
-      filename: golden_flight.jpg
-      title: Hummingbird
-      medium: Acrylic on Canvas
-      dims: 51cm x 40cm
-      price: $285
   - take_a_gander_at_this_goose:
       filename: take_a_gander_at_this_goose.jpg
       title: Take a Gander at this Goose

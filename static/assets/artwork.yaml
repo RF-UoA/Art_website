@@ -1,22 +1,22 @@
 artwork:
-  - after_the_fire:
-      filename: after_the_fire.jpg
-      title: After the Fire
-      medium: Acrylic, Ink & Oil on Canvas - framed
-      dims: 50cm x 50cm
-      price: $640
-  - regeneration:
-      filename: regeneration.jpg
-      title: Regeneration
-      medium: Acrylic, Ink & Oil on Canvas - framed
-      dims: 50cm x 50cm
-      price: $640
-  - flourish:
-      filename: flourish.jpg
-      title: Flourish
-      medium: Acrylic, Ink & Oil on Canvas - framed
-      dims: 50cm x 50cm
-      price: $640
+  # - after_the_fire:
+  #     filename: after_the_fire.jpg
+  #     title: After the Fire
+  #     medium: Acrylic, Ink & Oil on Canvas - framed
+  #     dims: 50cm x 50cm
+  #     price: $640
+  # - regeneration:
+  #     filename: regeneration.jpg
+  #     title: Regeneration
+  #     medium: Acrylic, Ink & Oil on Canvas - framed
+  #     dims: 50cm x 50cm
+  #     price: $640
+  # - flourish:
+  #     filename: flourish.jpg
+  #     title: Flourish
+  #     medium: Acrylic, Ink & Oil on Canvas - framed
+  #     dims: 50cm x 50cm
+  #     price: $640
   - floral_abstract_i:
       filename: floral_abstract_i.jpg
       title: Floral Abstract I
@@ -35,24 +35,24 @@ artwork:
       medium: Acrylic on Canvas
       dims: 61cm x 46cm
       price: $450
-  - peace:
-      filename: peace.jpg
-      title: Peace
-      medium: Acrylic on Canvas - framed
-      dims: 54cm x 43cm
-      price: $580
+  # - peace:
+  #     filename: peace.jpg
+  #     title: Peace
+  #     medium: Acrylic on Canvas - framed
+  #     dims: 54cm x 43cm
+  #     price: $580
   - chrysanthemum:
       filename: chrysanthemum.jpg
       title: Chrysanthemum
       medium: Acrylic on Board - framed
       dims: 34.5cm x 34.5cm
       price: $350
-  - magnolia:
-      filename: magnolia.jpg
-      title: Magnolia
-      medium: Acrylic on Canvas - framed
-      dims: 33cm x 33cm
-      price: $350
+  # - magnolia:
+  #     filename: magnolia.jpg
+  #     title: Magnolia
+  #     medium: Acrylic on Canvas - framed
+  #     dims: 33cm x 33cm
+  #     price: $350
   - daisy:
       filename: daisy.jpg
       title: Daisy
